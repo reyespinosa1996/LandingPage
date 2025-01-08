@@ -6,6 +6,7 @@ body {
     background-color: #1f2935;
     display: flex;
     justify-content: space-between;
+    padding: 8px 16px;
 }
 
 .header-left {
@@ -16,7 +17,14 @@ body {
 
 .header-right {
     display: flex;
-    flex-direction: column
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
 
 ul {
