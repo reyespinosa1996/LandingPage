@@ -11,16 +11,19 @@ body {
     padding-right: 10%;
 }
 
-.header-left {
-    display: flex;
-    align-items: center;
-    color: white;
+.header-logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+
 }
 
 .header-right {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .links {
@@ -41,4 +44,12 @@ li {
 a {
     color: gray;
     text-decoration: none;
+}
+
+.main-content {
+    color: white;
+    background-color: #1f2935;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
