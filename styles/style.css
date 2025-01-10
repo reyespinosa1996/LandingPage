@@ -69,8 +69,15 @@ a {
     height: 200px;
 }
 
-.signup {
+.signup,
+.signup2 {
     min-width: 15%;
     max-width: 15%;
     padding: 4px;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
