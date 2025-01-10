@@ -7,8 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px 16px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 5%;
 }
 
 .header-logo {
@@ -50,5 +49,28 @@ a {
     background-color: #1f2935;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.main-content-right {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.main-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+}
+
+.signup {
+    min-width: 15%;
+    max-width: 15%;
+    padding: 4px;
 }
