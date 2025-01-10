@@ -93,3 +93,14 @@ a {
     display: flex;
     justify-content: space-evenly
 }
+
+.description {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.descriptions {
+    display: flex;
+    justify-content: space-evenly;
+}
