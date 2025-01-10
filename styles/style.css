@@ -81,3 +81,15 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.ilustration {
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+    border-radius: 8px;
+}
+
+.ilustrations {
+    display: flex;
+    justify-content: space-evenly
+}
