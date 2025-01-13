@@ -106,3 +106,26 @@ a {
     justify-content: space-evenly;
     gap: 4px;
 }
+
+.testimonial {
+    max-width: 90%;
+    min-height: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: 10%;
+}
+
+.testimony {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.signature {
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+}
