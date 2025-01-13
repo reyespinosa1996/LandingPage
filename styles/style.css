@@ -71,8 +71,8 @@ a {
 
 .signup,
 .signup2 {
-    min-width: 15%;
-    max-width: 15%;
+    min-width: 100px;
+    max-width: 100px;
     padding: 4px;
 }
 
@@ -91,7 +91,8 @@ a {
 
 .ilustrations {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    gap: 4px;
 }
 
 .description {
@@ -103,4 +104,5 @@ a {
 .descriptions {
     display: flex;
     justify-content: space-evenly;
+    gap: 4px;
 }
