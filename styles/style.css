@@ -70,10 +70,14 @@ a {
 }
 
 .signup,
-.signup2 {
-    min-width: 100px;
-    max-width: 100px;
-    padding: 4px;
+.signup-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 8px;
+    padding: 8px;
 }
 
 .random-info {
@@ -145,13 +149,4 @@ a {
 
 .content-left {
     padding-right: 64px;
-}
-
-.signup-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 20px;
-    border-radius: 8px;
 }
