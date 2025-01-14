@@ -133,3 +133,24 @@ a {
     margin-top: 0;
     align-self: flex-end;
 }
+
+.call-to-action-body {
+    margin: 5%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #e5e7eb;  
+    width: 60%px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
