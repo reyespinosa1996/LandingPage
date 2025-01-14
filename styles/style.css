@@ -134,23 +134,24 @@ a {
     align-self: flex-end;
 }
 
-.call-to-action-body {
-    margin: 5%;
-    height: 40%;
+.call-to-action {
+    background-color: #e5e7eb;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    margin: 10%;
+}
+
+.content-left {
+    padding-right: 64px;
+}
+
+.signup-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.call-to-action {
-    background-color: #e5e7eb;  
-    width: 60%px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.signup2 {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 20px;
     border-radius: 8px;
 }
