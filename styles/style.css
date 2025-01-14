@@ -16,7 +16,8 @@ body {
 
 }
 
-.header-right {
+.header-right,
+.secondary-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +41,7 @@ li {
 }
 
 a {
-    color: gray;
+    color: #e5e7eb;
     text-decoration: none;
 }
 
@@ -53,20 +54,23 @@ a {
     padding: 5%;
 }
 
-.main-content-right {
-    background-color: grey;
-    height: 200px;
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.placeholder {
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
 }
 
 .main-content-left {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 200px;
+    width: 40%;
+    height: 20%;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 .signup,
@@ -77,13 +81,19 @@ a {
     width: 100px;
     height: 20px;
     border-radius: 32px;
+    border-color: aliceblue;
     padding: 16px;
+    background-color: #3882f6;
+    color: aliceblue;
 }
 
 .random-info {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .ilustration {
@@ -128,7 +138,10 @@ a {
 }
 
 .testimony {
-    font-size: 24px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
     margin-bottom: 10px;
     align-items: center;
 }
@@ -139,7 +152,8 @@ a {
 }
 
 .call-to-action {
-    background-color: #e5e7eb;  
+    background-color: #3882f6;  
+    color: aliceblue;
     display: flex;
     justify-content: space-around;
     align-items: center;
