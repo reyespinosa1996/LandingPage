@@ -108,24 +108,28 @@ a {
 }
 
 .testimonial {
-    max-width: 90%;
     min-height: 100px;
     background-color: #e5e7eb;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-wrapper {
+    max-width: 40%;
     display: flex;
     flex-direction: column;
-    padding: 5%;
-    margin: 10%;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimony {
     font-size: 24px;
-    display: flex;
+    margin-bottom: 10px;
     align-items: center;
-    margin-bottom: 0;
 }
 
 .signature {
-    display: flex;
-    justify-content: right;
     margin-top: 0;
+    align-self: flex-end;
 }
